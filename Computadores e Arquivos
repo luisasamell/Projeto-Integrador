@@ -1,0 +1,31 @@
+a) A relação entre a LGPD e os Data Centers no Brasi:
+Os Data Centers (Centro de Processamento de Dados) estão integrados nas conformidades
+da LGPD (Lei Geral de Proteção de Dados). Eles representam um conjunto de
+equipamentos utilizados para o processamento e armazenamento de dados, sistemas e
+aplicações. A estrutura, geralmente, engloba servidores, bancos de dados, armazenamento
+e processamento de dados e outras ferramentas físicas e digitais. Além disso, uma das
+principais funções dos Data Certers é garantir que os dados e sistemas hospedados nele
+possam ser acessados a qualquer momento. Eles são responsáveis por armazenar uma
+grande quantidade de dados, incluindo aqueles protegidos pela LGPD. Portanto, os Centros
+de Processamento de Dados devem adotar medidas de segurança adequadas para
+proteger as informações contra acesso não autorizado, etc.
+b) Formatos de arquivos de dados proprietários e abertos:
+Um formato aberto indica uma especificação técnica de domínio público usada para a
+descrição e armazenamento de dados, livre de restrições para o uso. Garante o acesso aos
+dados a longo prazo sem inseguranças. Já formatos proprietários são definidos por
+interesses privados, correndo o risco de perder todas as informações contidas no arquivo.
+Os abertos tendem a ter uma vida útil mais longa, pois são suportados por uma comunidade
+mais ampla de usuários, garantindo o acesso seguro e longevidade. Os proprietários estão
+sujeitos às decisões comerciais dos fabricantes, que podem resultar em uma
+descontinuação ou mudanças incompatíveis. Vemos, assim, que o formato aberto oferece,
+geralmente, vantagens em relação ao formato proprietário.
+b.1) Forneça exemplos de formatos:
+Formatos abertos são "Comma-Separated Value"; "JavaScript Object Notation"; "PDF", etc.
+Formatos proprietários são "Microsoft Word"; "Adobe"; "Excel", etc.
+b.2) Discuta as implicações relacionadas a dados públicos:
+O formato aberto permite que os dados sejam acessados e utilizados por uma variedade de
+sistemas e aplicativos diferentes, não requerendo software específico ou licenças para
+visualização ou manipulação, sendo dados públicos mais acessíveis. Já no formato
+proprietário, os dados estão sujeitos à dependência do fornecedor do software para
+visualização e manipulação, podendo ter restrições de licenciamento e uso, ou até mesmo
+envolver custos para tal, dificultando o fácil acesso a dados públicos.
