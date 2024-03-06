@@ -1,0 +1,32 @@
+Python:
+   - Sintaxe simples e legível: Python é conhecido por sua sintaxe limpa e fácil de entender, o que o torna uma excelente escolha para iniciantes.
+   - Interpretada e de alto nível: Python é uma linguagem interpretada, o que significa que o código é executado linha por linha pelo interpretador. É considerada uma linguagem de alto nível, o que significa que é mais próxima da linguagem humana do que da linguagem de máquina.
+   - Versatilidade: Python é uma linguagem versátil que é amplamente utilizada em uma variedade de campos, incluindo desenvolvimento web, ciência de dados, automação, inteligência artificial e muito mais.
+   - Grande ecossistema de bibliotecas: Python possui uma vasta gama de bibliotecas que facilitam a realização de diversas tarefas, desde processamento de texto até aprendizado de máquina.
+
+JavaScript:
+   - Linguagem de script do lado do cliente: JavaScript é principalmente uma linguagem de script usada para desenvolvimento web. É executada no navegador do cliente, o que a torna uma parte fundamental do desenvolvimento web front-end.
+   - Assíncrona e baseada em eventos: JavaScript é assíncrona e baseada em eventos, o que significa que pode lidar com várias operações simultaneamente sem bloquear a execução do código.
+   - Ampla adoção: JavaScript é uma das linguagens de programação mais amplamente adotadas e é essencial para o desenvolvimento web moderno, tanto no front-end quanto no back-end (Node.js).
+   - Prototipagem baseada em objetos: JavaScript usa um modelo de prototipagem baseado em objetos para definir objetos e seus comportamentos.
+
+C++:
+   - Linguagem compilada e de baixo nível: C++ é uma linguagem compilada, o que significa que o código-fonte é traduzido diretamente para código de máquina antes da execução. Também é considerada uma linguagem de baixo nível, pois oferece um alto nível de controle sobre o hardware subjacente.
+   - Eficiência e desempenho: C++ é conhecido por sua eficiência e desempenho, o que a torna uma escolha popular para sistemas de software que exigem alta performance, como jogos, sistemas operacionais e aplicativos de tempo real.
+   - Sintaxe complexa: A sintaxe de C++ é mais complexa do que a de Python ou JavaScript, o que pode tornar a aprendizagem mais desafiadora para iniciantes.
+   - Gerenciamento de memória manual: C++ requer gerenciamento manual de memória, o que significa que o programador é responsável por alocar e desalocar memória explicitamente. Isso oferece mais controle sobre o uso de memória, mas também pode levar a erros de programação, como vazamentos de memória.
+
+1- a) Python:
+print("Olá, mundo!")
+
+JavaScript:
+console.log("Olá, mundo!")
+
+C++: 
+#include <iostream>
+
+int main() {
+    std::cout << "Olá, mundo!" << std::endl;
+    return 0;
+}
+
