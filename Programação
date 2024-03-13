@@ -1,0 +1,19 @@
+Estrutura de repetição (loop for):
+Python
+Copy code
+# Exemplo de loop for para imprimir números de 1 a 5
+for i in range(1, 6):
+    print(i)
+
+Estrutura de tomada de decisão (if):
+Python
+Copy code
+# Exemplo de uma estrutura de tomada de decisão com if
+numero = 10
+
+if numero > 0:
+    print("O número é positivo.")
+elif numero == 0:
+    print("O número é zero.")
+else:
+    print("O número é negativo.")
