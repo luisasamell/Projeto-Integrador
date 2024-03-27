@@ -1,0 +1,401 @@
+def soma (a,b):
+    return a + b
+def quadrado (a):
+    return a**2
+def hipotenusa (cat1, cat2):
+    return soma (quadrado(cat1),quadrado(cat2))**(1/2)
+def simples (cor):
+    if cor == 'azul':
+        return 'escolheu certo'
+def medio (cor):
+    if cor == 'azul':
+        return 'escolheu certo'
+    else:
+        return 'tente outra cor'
+def completo (cor):
+    if cor == 'azul':
+        return 'escolheu errado'
+    elif cor == 'marrom':
+        return 'não tem salvação'
+    else:
+        return 'tente outra cor'
+numeros = [1, 2, 3, 4, 5]
+print (numeros[0])
+print (numeros[-1])
+numeros[0] = 10
+print(numeros)
+contador = 0
+while contador < 10:
+    print(contador)
+    contador += 1
+for i in range(10):
+        print(i, end= ' ')
+for item in [1, 45, 78, 'a', (3, 5)]:
+        print(item, end= ' ')
+for letra in 'minha string':
+        print(letra, end= ' ')
+soma (6, 5)
+11
+
+======================================================= RESTART: C:/Users/202104182562/Downloads/semana 7.py ======================================================
+quadrado (15)
+225
+quadrado (3,4)
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    quadrado (3,4)
+TypeError: quadrado() takes 1 positional argument but 2 were given
+quadrado (3, 4)
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    quadrado (3, 4)
+TypeError: quadrado() takes 1 positional argument but 2 were given
+hipotenusa (3, 4)
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    hipotenusa (3, 4)
+  File "C:/Users/202104182562/Downloads/semana 7.py", line 6, in hipotenusa
+    return soma (quadrado(cat1)),(quadrado(cat2))**(1/2)
+TypeError: soma() missing 1 required positional argument: 'b'
+
+======================================================= RESTART: C:/Users/202104182562/Downloads/semana 7.py ======================================================
+hipotenusa (3, 4)
+5.0
+
+======================================================= RESTART: C:/Users/202104182562/Downloads/semana 7.py ======================================================
+simples ('azul')
+'escolheu certo'
+simples ('preto')
+medio ('azul')
+'escolheu certo'
+medio ('preto')
+'tente outra cor'
+completo ('azul')
+'escolheu errado'
+completo ('marrom')
+'não tem salvação'
+completo ('amarelo')
+'tente outra cor'
+
+======================================================= RESTART: C:/Users/202104182562/Downloads/semana 7.py ======================================================
+1
+5
+[10, 2, 3, 4, 5]
+
+======================================================= RESTART: C:/Users/202104182562/Downloads/semana 7.py ======================================================
+1
+5
+[10, 2, 3, 4, 5]
+0
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+45
+78
+a
+(3, 5)
+m
+i
+n
+h
+a
+ 
+s
+t
+r
+i
+n
+g
+1
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+45
+78
+a
+(3, 5)
+m
+i
+n
+h
+a
+ 
+s
+t
+r
+i
+n
+g
+2
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+45
+78
+a
+(3, 5)
+m
+i
+n
+h
+a
+ 
+s
+t
+r
+i
+n
+g
+3
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+45
+78
+a
+(3, 5)
+m
+i
+n
+h
+a
+ 
+s
+t
+r
+i
+n
+g
+4
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+45
+78
+a
+(3, 5)
+m
+i
+n
+h
+a
+ 
+s
+t
+r
+i
+n
+g
+5
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+45
+78
+a
+(3, 5)
+m
+i
+n
+h
+a
+ 
+s
+t
+r
+i
+n
+g
+6
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+45
+78
+a
+(3, 5)
+m
+i
+n
+h
+a
+ 
+s
+t
+r
+i
+n
+g
+7
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+45
+78
+a
+(3, 5)
+m
+i
+n
+h
+a
+ 
+s
+t
+r
+i
+n
+g
+8
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+45
+78
+a
+(3, 5)
+m
+i
+n
+h
+a
+ 
+s
+t
+r
+i
+n
+g
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+45
+78
+a
+(3, 5)
+m
+i
+n
+h
+a
+ 
+s
+t
+r
+i
+n
+g
+
+======================================================= RESTART: C:/Users/202104182562/Downloads/semana 7.py ======================================================
+1
+5
+[10, 2, 3, 4, 5]
+0
+0 1 2 3 4 5 6 7 8 9 1 45 78 a (3, 5) m i n h a   s t r i n g 1
+0 1 2 3 4 5 6 7 8 9 1 45 78 a (3, 5) m i n h a   s t r i n g 2
+0 1 2 3 4 5 6 7 8 9 1 45 78 a (3, 5) m i n h a   s t r i n g 3
+0 1 2 3 4 5 6 7 8 9 1 45 78 a (3, 5) m i n h a   s t r i n g 4
+0 1 2 3 4 5 6 7 8 9 1 45 78 a (3, 5) m i n h a   s t r i n g 5
+0 1 2 3 4 5 6 7 8 9 1 45 78 a (3, 5) m i n h a   s t r i n g 6
+0 1 2 3 4 5 6 7 8 9 1 45 78 a (3, 5) m i n h a   s t r i n g 7
+0 1 2 3 4 5 6 7 8 9 1 45 78 a (3, 5) m i n h a   s t r i n g 8
+0 1 2 3 4 5 6 7 8 9 1 45 78 a (3, 5) m i n h a   s t r i n g 9
+0 1 2 3 4 5 6 7 8 9 1 45 78 a (3, 5) m i n h a   s t r i n g 
+
+======================================================= RESTART: C:/Users/202104182562/Downloads/semana 7.py ======================================================
+1
+5
+[10, 2, 3, 4, 5]
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0 1 2 3 4 5 6 7 8 9 1 45 78 a (3, 5) m i n h a   s t r i n g 
+
