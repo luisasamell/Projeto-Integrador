@@ -1,0 +1,25 @@
+def calcular_soma_e_media(lista):
+    soma = sum(lista)
+    media = soma / len(lista) if len(lista) > 0 else 0
+    return soma, media
+
+lista_de_numeros = [1, 2, 3, 4, 5]
+soma, media = calcular_soma_e_media(lista_de_numeros)
+print("A soma da lista é:", soma)
+print("A média da lista é:", media)
+
+def substituir_palavra(lista, palavra_antiga, palavra_nova):
+    nova_lista = [palavra_nova if palavra == palavra_antiga else palavra for palavra in lista]
+    return nova_lista
+lista_de_palavras = ['morango', 'banana', 'limão']
+palavra_antiga = 'morango'
+palavra_nova = 'framboesa'
+nova_lista = substituir_palavra(lista_de_palavras, palavra_antiga, palavra_nova)
+print("Lista original:", lista_de_palavras)
+print("Lista com substituição:", nova_lista)
+
+def gerar_triangulo (num_linhas):
+    for i in range(1, num_linhas + 1):
+        print('*' * i)
+num_linhas = 4
+gerar_triangulo(num_linhas)
