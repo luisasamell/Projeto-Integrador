@@ -1,0 +1,66 @@
+Manipulação de Arquivos
+def questao1():
+    nome = input("Por favor, digite seu nome: ")
+
+    # Abre o arquivo no modo de escrita ('w'), isso irá criar o arquivo se não existir ou sobrescrevê-lo se existir
+    with open("nome.txt", "w") as arquivo:
+        arquivo.write(nome)
+
+    print("Nome salvo com sucesso no arquivo 'nome.txt'.")
+
+# Exemplo de uso da função
+questao1()
+
+def questao2():
+    nome_arquivo = input("Digite o nome do arquivo de texto: ")
+
+    # Abre o arquivo no modo de leitura ('r')
+    with open(nome_arquivo, "r") as arquivo:
+        conteudo = arquivo.read()
+
+    print("Conteúdo do arquivo:")
+    print(conteudo)
+
+# Exemplo de uso da função
+questao2()
+
+def questao3():
+    # Abre o arquivo de origem no modo de leitura ('r')
+    with open(origem, "r") as arquivo_origem:
+        conteudo = arquivo_origem.read()
+
+    # Abre ou cria o arquivo de destino no modo de escrita ('w')
+    with open(destino, "w") as arquivo_destino:
+        arquivo_destino.write(conteudo)
+
+    print(f"Conteúdo do arquivo '{origem}' copiado com sucesso para o arquivo '{destino}'.")
+
+# Exemplo de uso da função
+questao3("exemplo.txt", "novo_arquivo.txt")
+
+def questao4():
+    try:
+        # Solicita um número ao usuário
+        numero = int(input("Digite um número para encontrar o nome correspondente: "))
+
+        # Abre o arquivo de exemplo no modo de leitura ('r')
+        with open("exemplo.txt", "r") as arquivo:
+            # Lê todas as linhas do arquivo
+            linhas = arquivo.readlines()
+
+            # Verifica se o número está dentro do intervalo das linhas do arquivo
+            if 0 < numero <= len(linhas):
+                # Imprime o nome correspondente ao número
+                print(linhas[numero - 1].strip())
+            else:
+                print("Número fora do intervalo válido.")
+    except ValueError:
+        print("Erro: Por favor, digite um número válido.")
+    except FileNotFoundError:
+        print("Erro: O arquivo de exemplo não foi encontrado.")
+
+# Exemplo de uso da função
+questao4()
+
+
+
